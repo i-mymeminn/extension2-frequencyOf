@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name":"frequencyOf",
+  "description": "My lovely extension",
+   "version":"1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+
+  "permissions": [
+      "activeTab",
+      "scripting",
+      "storage"
+  ]
+}
